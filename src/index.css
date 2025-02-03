@@ -18,12 +18,41 @@ body {
 
 
 /* Navbar */
-.navbar {
-  background-color: #007bff;
-  padding: 10px 20px;
+nav {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 50px;
+}
+
+.navTop {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menuItem {
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.menuItem:hover {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slider {
+  /* max-height: 400px; */
+  background-image: url("./assets/images/nike-shoe.jpg");
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
 .navbar-brand {
@@ -33,23 +62,50 @@ body {
   margin: 0;
 }
 
-.navbar-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+
+/* Search sec */
+
+.search-section{
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: gray;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.3);
+  margin: 0 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: lightgray;
+}
+
+.search-section:hover input {
+  width: 200px;
+}
+
+.search-section a .fas {
+  color: #1daf;
+  font-size: 18px;
+}
+
+.search-div {
   display: flex;
 }
 
-.navbar-link {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-size: 1rem;
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
 }
 
-.navbar-link:hover {
-  text-decoration: underline;
-}
 
 /* product grid */
 .product-grid {
@@ -110,34 +166,18 @@ body {
   margin-top: 5px;
 }
 
-/* Search sec */
 
-.search-section{
-  height: 50px;
-  display: flex;
-  cursor: pointer;
-  padding: 10px 20px;
-  background: #fff;
-  border-radius: 30px;
-  align-items: center;
-  box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.3);
-  margin: 0 10px;
-}
-
-.search-section:hover input {
-  width: 200px;
-}
-
-.search-section input{
-  width: 200px;
-  outline: none;
+.help-button button {
+  /* width: 150px; */
   border: none;
-  font-weight: 500;
-  transition: 0.8s;
-  background: transparent;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.3);
+  background: #fff;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.search-section a .fas {
-  color: #1daf;
-  font-size: 18px;
+.help-button button:hover {
+  transform: scale(105%);
 }

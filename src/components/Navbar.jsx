@@ -4,18 +4,30 @@ import Filters from "./Filters";
 
 const Navbar = ({ setSearch, setCategory, setFreeShipping }) => {
   return (
-    <nav className="navbar">
-      <h1 className="navbar-brand">MyStore</h1>
-      <div className="search-section">
-        <SearchBar setSearch={setSearch} />
+    <nav>
+      <div className="navTop">
+        <div className="navItem">
+          <h1>MyStore</h1>
+        </div>
+        <div className="navItem search-div">
+          <div className="search-section">
+            <SearchBar setSearch={setSearch} />
+          </div>
+          <div className="filters">
+            <Filters setCategory={setCategory} setFreeShipping={setFreeShipping} />
+          </div>
+        </div>
+        <div className="navItem limitedOffer">
+          Ofertas
+        </div>
       </div>
-        <Filters setCategory={setCategory} setFreeShipping={setFreeShipping} />
-      
-      <ul className="navbar-links">
-        <li><a href="#" className="navbar-link">Home</a></li>
-        <li><a href="#" className="navbar-link">Produtos</a></li>
-        <li><a href="#" className="navbar-link">Contato</a></li>
-      </ul>
+      <div className="navBottom">
+        <h5 className="menuItem">ACESSÓRIOS</h5>
+        <h5 className="menuItem">ROUPAS</h5>
+        <h5 className="menuItem">CALÇADOS</h5>
+        <h5 className="menuItem">JORDAN</h5>
+        <h5 className="menuItem">AIRFORCE</h5>
+      </div>
     </nav>
   );
 };

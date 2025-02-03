@@ -7,9 +7,11 @@ const HelpButton = () => {
   };
 
   return (
-    <button onClick={handleClick} className="help-button p-2 bg-blue-600 text-white rounded">
-      Precisa de ajuda?
-    </button>
+    <div className="help-button">
+        <button onClick={handleClick}>
+        Precisa de ajuda?
+        </button>
+    </div>
   );
 };
 

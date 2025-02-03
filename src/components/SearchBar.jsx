@@ -7,7 +7,7 @@ const SearchBar = ({ setSearch }) => {
         type="text"
         placeholder="Pesquisar..."
         onChange={(e) => setSearch(e.target.value)}
-        className="p-2 border rounded"
+        className="searchInput"
       />
       <a href="a">
         <i className="fas fa-search"></i>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import ProductGrid from "./components/ProductGrid";
 import HelpButton from "./components/HelpButton";
+import Slider from "./components/Slider";
 import "./index.css";
 
 const productsData = [
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <div>
       <Navbar setSearch={setSearch} setCategory={setCategory} setFreeShipping={setFreeShipping} />
+      <Slider />
       <div className="container">
         <p>{filteredProducts.length} resultados encontrados</p>
         <ProductGrid products={filteredProducts} />
