@@ -1,14 +1,21 @@
-
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Filters = ({ setCategory, setFreeShipping }) => {
+  const navigate = useNavigate();
+
+  const handleCategoryChange = (e) => {
+    setCategory(e.target.value);
+    navigate(`/search?category=${e.target.value}`);  // Redirecionar para SearchPage com a categoria
+  };
+
   return (
     <div className="filters">
       <div className="filter-category">
         <label htmlFor="category">Categoria:</label>
         <select
           id="category"
-          onChange={(e) => setCategory(e.target.value)}
+          onChange={handleCategoryChange}
           className="p-2 border rounded"
         >
           <option value="">Todas</option>
@@ -24,7 +31,7 @@ const Filters = ({ setCategory, setFreeShipping }) => {
             onChange={(e) => setFreeShipping(e.target.checked)}
             className="mr-2"
           />
-          Frete Grátis
+          <span className="frete">  Frete Grátis</span>
         </label>
       </div>
     </div>

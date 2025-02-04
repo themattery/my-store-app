@@ -1,13 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import Filters from "./Filters";
 
 const Navbar = ({ setSearch, setCategory, setFreeShipping }) => {
+  const navigate = useNavigate();
+
   return (
     <nav>
       <div className="navTop">
         <div className="navItem">
-          <h1>MyStore</h1>
+          <h1 onClick={() => navigate("/")} style={{ cursor: "pointer" }}>MyStore</h1>
         </div>
         <div className="navItem search-div">
           <div className="search-section">
@@ -22,11 +25,11 @@ const Navbar = ({ setSearch, setCategory, setFreeShipping }) => {
         </div>
       </div>
       <div className="navBottom">
-        <h5 className="menuItem">ACESSÓRIOS</h5>
-        <h5 className="menuItem">ROUPAS</h5>
-        <h5 className="menuItem">CALÇADOS</h5>
-        <h5 className="menuItem">JORDAN</h5>
-        <h5 className="menuItem">AIRFORCE</h5>
+        <h6 className="menuItem">ACESSÓRIOS</h6>
+        <h6 className="menuItem">ROUPAS</h6>
+        <h6 className="menuItem">CALÇADOS</h6>
+        <h6 className="menuItem">JORDAN</h6>
+        <h6 className="menuItem">AIRFORCE</h6>
       </div>
     </nav>
   );
