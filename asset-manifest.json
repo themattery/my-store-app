@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/my-store-app/static/css/main.469dc2af.css",
-    "main.js": "/my-store-app/static/js/main.e280340f.js",
+    "main.css": "/my-store-app/static/css/main.6d6ca204.css",
+    "main.js": "/my-store-app/static/js/main.b9ca7105.js",
     "static/js/488.a96d62f7.chunk.js": "/my-store-app/static/js/488.a96d62f7.chunk.js",
     "static/media/nike-shoe.jpg": "/my-store-app/static/media/nike-shoe.2c508aebdb0bbac5d694.jpg",
     "static/media/red-shoes.png": "/my-store-app/static/media/red-shoes.bc1e8e56b36e11f75a2c.png",
     "static/media/fa-solid-900.ttf": "/my-store-app/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/adidas-shirt.png": "/my-store-app/static/media/adidas-shirt.27c8191bbe09f64552a3.png",
     "static/media/fa-brands-400.ttf": "/my-store-app/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/white-shoe.webp": "/my-store-app/static/media/white-shoe.111c915bbf118ce1a703.webp",
     "static/media/fa-solid-900.woff2": "/my-store-app/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/blue-shoe.webp": "/my-store-app/static/media/blue-shoe.f3f57638f596d9e1be12.webp",
     "static/media/fa-brands-400.woff2": "/my-store-app/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fa-regular-400.ttf": "/my-store-app/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/orange-shoe.jpg": "/my-store-app/static/media/orange-shoe.b4138df6f037dfabd956.jpg",
+    "static/media/watch-samsung.jpg": "/my-store-app/static/media/watch-samsung.422c3678879347747ed4.jpg",
+    "static/media/black-shoe.webp": "/my-store-app/static/media/black-shoe.06d1161bf5c3e2607927.webp",
     "static/media/fa-regular-400.woff2": "/my-store-app/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/relogio-casio.webp": "/my-store-app/static/media/relogio-casio.083e7b8f68d807600ee0.webp",
+    "static/media/backpack-adidas.jpg": "/my-store-app/static/media/backpack-adidas.48893a3ca9fd83e8f589.jpg",
     "static/media/fa-v4compatibility.ttf": "/my-store-app/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/hoodie-nike.webp": "/my-store-app/static/media/hoodie-nike.d7679f9407ecceea3c11.webp",
     "static/media/fa-v4compatibility.woff2": "/my-store-app/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/my-store-app/index.html",
-    "main.469dc2af.css.map": "/my-store-app/static/css/main.469dc2af.css.map",
-    "main.e280340f.js.map": "/my-store-app/static/js/main.e280340f.js.map",
+    "main.6d6ca204.css.map": "/my-store-app/static/css/main.6d6ca204.css.map",
+    "main.b9ca7105.js.map": "/my-store-app/static/js/main.b9ca7105.js.map",
     "488.a96d62f7.chunk.js.map": "/my-store-app/static/js/488.a96d62f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.469dc2af.css",
-    "static/js/main.e280340f.js"
+    "static/css/main.6d6ca204.css",
+    "static/js/main.b9ca7105.js"
   ]
 }
