@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-store-app/static/css/main.6d6ca204.css",
-    "main.js": "/my-store-app/static/js/main.b9ca7105.js",
+    "main.css": "/my-store-app/static/css/main.fb1898ce.css",
+    "main.js": "/my-store-app/static/js/main.fefcc529.js",
     "static/js/488.a96d62f7.chunk.js": "/my-store-app/static/js/488.a96d62f7.chunk.js",
     "static/media/nike-shoe.jpg": "/my-store-app/static/media/nike-shoe.2c508aebdb0bbac5d694.jpg",
     "static/media/red-shoes.png": "/my-store-app/static/media/red-shoes.bc1e8e56b36e11f75a2c.png",
@@ -23,12 +23,12 @@
     "static/media/hoodie-nike.webp": "/my-store-app/static/media/hoodie-nike.d7679f9407ecceea3c11.webp",
     "static/media/fa-v4compatibility.woff2": "/my-store-app/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/my-store-app/index.html",
-    "main.6d6ca204.css.map": "/my-store-app/static/css/main.6d6ca204.css.map",
-    "main.b9ca7105.js.map": "/my-store-app/static/js/main.b9ca7105.js.map",
+    "main.fb1898ce.css.map": "/my-store-app/static/css/main.fb1898ce.css.map",
+    "main.fefcc529.js.map": "/my-store-app/static/js/main.fefcc529.js.map",
     "488.a96d62f7.chunk.js.map": "/my-store-app/static/js/488.a96d62f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6ca204.css",
-    "static/js/main.b9ca7105.js"
+    "static/css/main.fb1898ce.css",
+    "static/js/main.fefcc529.js"
   ]
 }
