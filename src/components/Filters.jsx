@@ -12,13 +12,13 @@ const Filters = ({ setCategory, setFreeShipping }) => {
   return (
     <div className="filters">
       <div className="filter-category">
-        <label htmlFor="category">Categoria:</label>
+        {/* <label htmlFor="category">Categoria:</label> */}
         <select
           id="category"
           onChange={handleCategoryChange}
-          className="p-2 border rounded"
+          className=""
         >
-          <option value="">Todas</option>
+          <option value="">Categorias</option>
           <option value="Calçados">Calçados</option>
           <option value="Roupas">Roupas</option>
           <option value="Acessórios">Acessórios</option>

@@ -28,8 +28,8 @@ const Navbar = ({ setSearch, setCategory, setFreeShipping }) => {
         <h6 className="menuItem">ACESSÓRIOS</h6>
         <h6 className="menuItem">ROUPAS</h6>
         <h6 className="menuItem">CALÇADOS</h6>
-        <h6 className="menuItem">JORDAN</h6>
-        <h6 className="menuItem">AIRFORCE</h6>
+        <h6 className="menuItem">AIR JORDAN</h6>
+        <h6 className="menuItem">AIR FORCE</h6>
       </div>
     </nav>
   );

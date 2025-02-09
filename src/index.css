@@ -51,10 +51,6 @@ nav {
   border-radius: 10px;
 }
 
-.search-div {
-  display: flex;
-  /* flex-direction: column; */
-}
 
 /* Filters */
 .filters {
@@ -62,8 +58,6 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .filter-category {
@@ -79,22 +73,23 @@ nav {
 
 .filter-category select {
   padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
   font-size: 14px;
-  background-color: white;
+  background-color: #fff;
   cursor: pointer;
   transition: 0.3s;
+  height: 50px;
 }
 
-.filter-category select:hover {
+/* .filter-category select:hover {
   border-color: #555;
 }
 
 .filter-category select:focus {
   outline: none;
   border-color: green;
-}
+} */
 
 .filter-shipping {
   display: flex;
@@ -213,12 +208,17 @@ nav {
 
 /* Search section */
 
+/* .search-div {
+  display: flex;
+  flex-direction: column;
+} */
+
 .search-section{
   height: 50px;
   display: flex;
   cursor: pointer;
   padding: 10px 20px;
-  background: gray;
+  background: #fff;
   border-radius: 10px;
   align-items: center;
   box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.3);
@@ -226,9 +226,11 @@ nav {
 }
 
 .searchInput {
+  outline: none;
   border: none;
   background-color: transparent;
 }
+
 
 .searchInput::placeholder {
   color: lightgray;
@@ -272,7 +274,7 @@ nav {
 }
 
 .product-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   cursor: pointer;
 }
 
@@ -297,15 +299,15 @@ nav {
 
 .product-card .btn {
   margin-top: 10px;
-  background-color: #28a745;
-  color: white;
+  background-color: #fff;
+  color: black;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.3);
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
-}
-
-.product-card .btn:hover {
-  background-color: #218838;
+  transition: 0.5s;
+  margin-left: 30%;
 }
 
 .product-card .price {
@@ -329,7 +331,7 @@ nav {
   transition: 0.5s;
 }
 
-.help-button button:hover, .buyButton:hover{
+.help-button button:hover, .buyButton:hover, .btn:hover{
   transform: scale(105%);
   box-shadow: 0 10px 25px rgba(0, 0 , 0, 0.8);
   
@@ -397,6 +399,30 @@ footer {
   font-size: 14px;
 }
 
+/* Fonts */
+body {
+  font-family: 'Poppins', sans-serif; /* Fonte principal */
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product-price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
 @media screen and (max-width: 480px) {
   nav {
     /* background-color: red; */
@@ -407,9 +433,6 @@ footer {
     display: none;
   }
 
-  .filters {
-    display: none;
-  }
 
   .navBottom {
     flex-wrap: wrap;
